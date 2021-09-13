@@ -1,0 +1,2 @@
+Get the mongoDB password by running this command: 
+    kubectl get secret "my-user-password" -o=jsonpath='{.data.password}' | base64 -d
